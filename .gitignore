@@ -3,3 +3,22 @@
 ################################################################################
 
 /API/appsettings.json
+
+# Ignore Visual Studio files
+.vs/
+*.user
+*.suo
+
+# Ignore build directories
+bin/
+obj/
+
+# Ignore local databases
+*.db
+
+# Ignore logs
+*.log
+
+# Ignore other system files
+.DS_Store
+Thumbs.db
