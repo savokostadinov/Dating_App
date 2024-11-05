@@ -126,3 +126,4 @@ C:\Users\developer\Desktop\CourseASPDotNet\DatingApp\API\obj\Debug\net8.0\refint
 C:\Users\developer\Desktop\CourseASPDotNet\DatingApp\API\obj\Debug\net8.0\API.pdb
 C:\Users\developer\Desktop\CourseASPDotNet\DatingApp\API\obj\Debug\net8.0\API.genruntimeconfig.cache
 C:\Users\developer\Desktop\CourseASPDotNet\DatingApp\API\obj\Debug\net8.0\ref\API.dll
+C:\Users\developer\Desktop\CourseASPDotNet\Datingapp\API\obj\Debug\net8.0\API.sourcelink.json

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "88prb+shT8Y=",
+  "dgSpecHash": "U4FFdxnvwQ8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\developer\\Desktop\\CourseASPDotNet\\DatingApp\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\developer\\Desktop\\CourseASPDotNet\\Datingapp\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\developer\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\developer\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
