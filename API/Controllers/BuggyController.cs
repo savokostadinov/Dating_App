@@ -40,6 +40,5 @@ namespace API.Controllers
             return BadRequest("This was not a good request");
         }
 
-
     }
 }
