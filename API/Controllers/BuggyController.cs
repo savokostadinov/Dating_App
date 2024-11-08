@@ -28,9 +28,9 @@ namespace API.Controllers
         public ActionResult<AppUser> GetServerError()
         {
       
-                var thing = context.Users.Find(-1) ?? throw new Exception("A bad thing has happed");
+            var thing = context.Users.Find(-1) ?? throw new Exception("A bad thing has happed");
             
-                return thing;                
+            return thing;                
             
         }
 
@@ -39,5 +39,7 @@ namespace API.Controllers
         {
             return BadRequest("This was not a good request");
         }
+
+
     }
 }

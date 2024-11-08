@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\developer\\Desktop\\CourseASPDotNet\\Datingapp\\API\\API.csproj": {}
+    "C:\\Users\\developer\\Desktop\\CourseASPDotNet\\DatingApp\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\developer\\Desktop\\CourseASPDotNet\\Datingapp\\API\\API.csproj": {
+    "C:\\Users\\developer\\Desktop\\CourseASPDotNet\\DatingApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\developer\\Desktop\\CourseASPDotNet\\Datingapp\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\developer\\Desktop\\CourseASPDotNet\\DatingApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\developer\\Desktop\\CourseASPDotNet\\Datingapp\\API\\API.csproj",
+        "projectPath": "C:\\Users\\developer\\Desktop\\CourseASPDotNet\\DatingApp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\developer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\developer\\Desktop\\CourseASPDotNet\\Datingapp\\API\\obj\\",
+        "outputPath": "C:\\Users\\developer\\Desktop\\CourseASPDotNet\\DatingApp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\developer\\AppData\\Roaming\\NuGet\\NuGet.Config",

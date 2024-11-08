@@ -1,0 +1,17 @@
+<h4><b>Internal Server Error</b></h4>
+
+@if(error){
+    <h5 class="text-danger">Error: {{error.message}}</h5>
+    <p class="font-weight-bold">Note: If you are seeing this error then Angluar is not to blame!</p>
+    <p>What to do next?</p>
+    <ol>
+        <li>Open chrome dev tools and check the failing network request in the network tab</li>
+        <li>Examie the URL of the failing request</li>
+        <li>Reproduce the error in postman - if you can reproduce the error than Angluar is not to blame</li>
+    </ol>
+    <p class="font-weight-bold">Following is the stack trace - check the first 2 lines
+         this tells you exaatply which line of code cause the problem!</p>
+    <code class="mt-5" style="background-color: whitesmoke;">
+        {{error.details}}
+    </code>
+}
