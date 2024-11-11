@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\developer\\Desktop\\CourseASPDotNet\\DatingApp\\API\\API.csproj": {}
+    "C:\\Users\\savo.kostadinov\\Desktop\\Dating_App\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\developer\\Desktop\\CourseASPDotNet\\DatingApp\\API\\API.csproj": {
+    "C:\\Users\\savo.kostadinov\\Desktop\\Dating_App\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\developer\\Desktop\\CourseASPDotNet\\DatingApp\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\savo.kostadinov\\Desktop\\Dating_App\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\developer\\Desktop\\CourseASPDotNet\\DatingApp\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\developer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\developer\\Desktop\\CourseASPDotNet\\DatingApp\\API\\obj\\",
+        "projectPath": "C:\\Users\\savo.kostadinov\\Desktop\\Dating_App\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\savo.kostadinov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\savo.kostadinov\\Desktop\\Dating_App\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\developer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\savo.kostadinov\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,6 +45,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[8.0.10, )"
