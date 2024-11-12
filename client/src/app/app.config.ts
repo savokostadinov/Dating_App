@@ -8,12 +8,13 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 import { platformBrowser } from '@angular/platform-browser';
 import { provideToastr } from 'ngx-toastr';
 import { errorInterceptor } from './_interceptors/error.interceptor';
+import { jwtInterceptor } from './_interceptors/jwt.interceptor';
 
 export const appConfig: ApplicationConfig = {
   providers: [
     provideZoneChangeDetection({ eventCoalescing: true }),
     provideRouter(routes),
-    provideHttpClient(withInterceptors([errorInterceptor])),
+    provideHttpClient(withInterceptors([errorInterceptor, jwtInterceptor])),
     provideAnimations(),
     provideToastr({
       positionClass: 'toast-bottom-right'
