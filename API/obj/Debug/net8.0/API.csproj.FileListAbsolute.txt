@@ -145,6 +145,7 @@ C:\Users\savo.kostadinov\Desktop\Dating_App\API\bin\Debug\net8.0\API.runtimeconf
 C:\Users\savo.kostadinov\Desktop\Dating_App\API\bin\Debug\net8.0\API.dll
 C:\Users\savo.kostadinov\Desktop\Dating_App\API\bin\Debug\net8.0\API.pdb
 C:\Users\savo.kostadinov\Desktop\Dating_App\API\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\savo.kostadinov\Desktop\Dating_App\API\bin\Debug\net8.0\CloudinaryDotNet.dll
 C:\Users\savo.kostadinov\Desktop\Dating_App\API\bin\Debug\net8.0\Humanizer.dll
 C:\Users\savo.kostadinov\Desktop\Dating_App\API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\savo.kostadinov\Desktop\Dating_App\API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
@@ -173,6 +174,7 @@ C:\Users\savo.kostadinov\Desktop\Dating_App\API\bin\Debug\net8.0\Microsoft.Ident
 C:\Users\savo.kostadinov\Desktop\Dating_App\API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\savo.kostadinov\Desktop\Dating_App\API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\savo.kostadinov\Desktop\Dating_App\API\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\savo.kostadinov\Desktop\Dating_App\API\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\savo.kostadinov\Desktop\Dating_App\API\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
 C:\Users\savo.kostadinov\Desktop\Dating_App\API\bin\Debug\net8.0\SQLitePCLRaw.core.dll
 C:\Users\savo.kostadinov\Desktop\Dating_App\API\bin\Debug\net8.0\SQLitePCLRaw.provider.e_sqlite3.dll
