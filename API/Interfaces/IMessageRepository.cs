@@ -16,8 +16,6 @@ namespace API.Interfaces
 
         Task<IEnumerable<MessageDTO>> GetMessageThread(string currentUsername, string recipientUsername);
 
-        Task<bool> SaveAllSync();
-
         void AddGroup(Group group);
 
         void RemoveConnection(Connection connection);

@@ -15,6 +15,5 @@ namespace API.Interfaces
 
         void AddLike(UserLike like);
 
-        Task<bool> SaveChanges();
     }
 }
