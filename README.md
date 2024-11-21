@@ -1,0 +1,1 @@
+This is a application for Dating with people you know. It is made for self practising. The frameworks that are used are .NET 8 and ANGULAR 18. It is deployed on Azure ( https://dating-app-sk-ffh9bkgaf3h8gse0.westeurope-01.azurewebsites.net/ )
