@@ -13,6 +13,7 @@ namespace API.Entities
 
         public string? PublicId { get; set; }
 
+        public bool IsApproved { get; set; } = false;
 
         //Navigation properties
 

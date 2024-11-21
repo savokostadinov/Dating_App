@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
+
 namespace API.Data
 {
     public class DataContext(DbContextOptions options) : IdentityDbContext<AppUser, AppRole, int, IdentityUserClaim<int>, AppUserRole, IdentityUserLogin<int>, IdentityRoleClaim<int>, IdentityUserToken<int>>(options)
@@ -15,6 +16,8 @@ namespace API.Data
 
         public DbSet<Group> Groups { get; set; }
         public DbSet<Connection> Connections { get; set; }
+
+        public DbSet<Photo> Photos { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -46,7 +49,7 @@ namespace API.Data
                .HasOne(s => s.TargetUser)
                .WithMany(l => l.LikedByUsers)
                .HasForeignKey(s => s.TargetUserId)
-               .OnDelete(DeleteBehavior.Cascade);
+               .OnDelete(DeleteBehavior.NoAction);
 
             builder.Entity<Message>()
                 .HasOne(x => x.Recipient)
@@ -57,6 +60,7 @@ namespace API.Data
                 .HasOne(x => x.Sender)
                 .WithMany(x => x.MessagesSent)
                 .OnDelete(DeleteBehavior.Restrict);
+
         }
 
     }
